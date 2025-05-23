@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Nexora"
+    "liveServer.settings.multiRootWorkspaceName": "Nexora",
+    "liveServer.settings.port": 5501
 }
