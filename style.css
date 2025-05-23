@@ -23,7 +23,9 @@ nav {
   text-align: center;
   padding: 1vw 15vw;
   margin-bottom: 10vh;
-  line-height: 4vw;
+  line-height: 3vw;
+  background-color: #1f1e1e;
+  z-index: 100;
 }
 /* Tooltip container */
 .tooltip {
@@ -40,24 +42,24 @@ nav {
   pointer-events: none;
   transition: all 0.3s ease;
   position: absolute;
-  top: 115%;
+  top: 70%;
   left: -50px;
   background-color: #2b2a2a;
   color: #c4bfbf;
-  padding: 10px 15px;
-  border-radius: 8px;
+  padding: 5px 8px;
+  border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   z-index: 10;
   white-space: nowrap;
 }
 
 .tooltip-content p {
-  padding: 8px 4px;
+  padding: 0px 8px;
 }
 
 .tooltip-content p:hover {
   border: 1px solid #fff;
-  border-radius: 8px;
+  border-radius: 4px;
   background-color: transparent;
   color: #ff5e00;
 }
@@ -164,7 +166,7 @@ nav button:hover {
 #page1 .moving-div {
   /* background-color: #b41f0b; */
   position: absolute;
-  bottom: 6%;
+  bottom: 10%;
   margin-top: 5vh;
   width: 45%;
   white-space: nowrap;
@@ -215,5 +217,24 @@ nav button:hover {
 #page2 {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to top, #021841, #311004);
+   background: linear-gradient(to bottom, #311004, #021841, #340438);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page2 .video-wrapper {
+  width: 90%;
+  height: 90%;
+  margin: 2vw;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 30px;
+  z-index: 999;
+}
+
+#page2 .video-wrapper video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
