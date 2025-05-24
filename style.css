@@ -298,3 +298,11 @@ p {
 .box5 p {
   max-width: 50%;
 }
+
+/* page4 */
+#page4 {
+  margin-top: 5vh;
+  height: 100vh;
+  width: 100%;
+  background-color: #340438;
+}
