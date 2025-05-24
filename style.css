@@ -217,7 +217,7 @@ nav button:hover {
 #page2 {
   height: 100vh;
   width: 100%;
-   background: linear-gradient(to bottom, #311004, #021841, #340438);
+  background: linear-gradient(to bottom, #311004, #021841, #340438);
   position: relative;
   display: flex;
   justify-content: center;
@@ -237,4 +237,64 @@ nav button:hover {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #340438, #021841, #311004);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page3 .grid {
+  border-radius: 30px;
+  height: 100vh;
+  width: 95%;
+  background-color: #292725;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.grid-box {
+  background-color: #383737;
+  height: 46vh;
+  border-radius: 25px;
+  margin: 10px;
+}
+.box4 {
+  grid-column: 1 / span 1;
+}
+.box5 {
+  grid-column: 2 / span 3;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  padding: 20px;
+  position: relative;
+}
+.grid-box:hover {
+  background-color: #2b2c2c;
+  cursor: pointer;
+}
+.grid-box h1,
+p {
+  position: absolute;
+  bottom: 10%;
+}
+.grid-box h1 {
+  margin-bottom: 5vh;
+  font-size: 3.2vw;
+}
+.grid-box p {
+  line-height: 2.4vh;
+  max-width: 40%;
+}
+.box5 p {
+  max-width: 50%;
 }
