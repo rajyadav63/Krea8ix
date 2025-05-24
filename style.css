@@ -16,60 +16,18 @@ li {
 }
 nav {
   position: fixed;
+  top: 0px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   padding: 1vw 15vw;
-  margin-bottom: 10vh;
-  line-height: 3vw;
+  /* line-height: 3vw; */
   background-color: #1f1e1e;
   z-index: 100;
 }
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  height: auto;
-}
 
-/* Tooltip content box */
-.tooltip-content {
-  opacity: 0;
-  transform: translateY(10px);
-  pointer-events: none;
-  transition: all 0.3s ease;
-  position: absolute;
-  top: 70%;
-  left: -50px;
-  background-color: #2b2a2a;
-  color: #c4bfbf;
-  padding: 5px 8px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  z-index: 10;
-  white-space: nowrap;
-}
-
-.tooltip-content p {
-  padding: 0px 8px;
-}
-
-.tooltip-content p:hover {
-  border: 1px solid #fff;
-  border-radius: 4px;
-  background-color: transparent;
-  color: #ff5e00;
-}
-
-/* Show tooltip on hover */
-.tooltip:hover .tooltip-content {
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
-}
 .logo h1 {
   color: #bd750a;
 }
@@ -120,7 +78,7 @@ nav button:hover {
 }
 #page1 {
   background: linear-gradient(to top, #311004, #021841, #340438);
-  height: 95vh;
+  height: 90vh;
   width: 100%;
   font-size: 3.2rem;
   font-weight: 500;
@@ -136,18 +94,18 @@ nav button:hover {
   margin-bottom: 50px;
 }
 #page1 h5 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   width: 57%;
-  line-height: 5vw;
+  line-height: 3vw;
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
 #page1 p {
   font-size: 20px;
-  margin-top: 3.2vh;
-  line-height: 2.2vh;
-  margin-bottom: 25px;
+  margin-top: 0.2vh;
+  line-height: 23.2vh;
+  margin-bottom: 34px;
 }
 #page1 span {
   color: #f3541a;
@@ -239,6 +197,7 @@ nav button:hover {
   object-fit: cover;
 }
 
+/* PAGE3 */
 #page3 {
   height: 100vh;
   width: 100%;
@@ -246,6 +205,7 @@ nav button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 4vh; */
 }
 #page3 .grid {
   border-radius: 30px;
@@ -301,8 +261,56 @@ p {
 
 /* page4 */
 #page4 {
-  margin-top: 5vh;
   height: 100vh;
   width: 100%;
-  background-color: #340438;
+  background: linear-gradient(to bottom, #311004, #021841, #340438);
+  padding: 2.5vw;
+}
+#page4 .section1 {
+  height: 26vh;
+  width: 90%;
+  margin-bottom: 5vh;
+  text-align: left;
+  padding: 2.1vw;
+}
+#page4 .section1 h1 {
+  font-size: 4.1vw;
+  margin-bottom: 12px;
+}
+
+#page4 .section1 h3 {
+  font-weight: 400;
+}
+
+#page4 .section2 {
+  height: 60vh;
+}
+#page4 .section2 .client-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.client {
+  height: 20vh;
+  width: 1005;
+  padding: 1.3vw;
+}
+.client:hover {
+  cursor: pointer;
+  background-color: #042c42;
+  border-radius: 10px;
+}
+
+.client .client-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.client .client-logo img {
+  margin-right: 8px;
+}
+.client .client-desc h5 {
+  font-weight: 400;
+  max-width: 26vw;
 }
