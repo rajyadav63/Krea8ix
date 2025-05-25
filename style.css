@@ -265,6 +265,7 @@ p {
   width: 100%;
   background: linear-gradient(to bottom, #311004, #021841, #340438);
   padding: 2.5vw;
+  margin-bottom: 20px;
 }
 #page4 .section1 {
   height: 26vh;
@@ -313,4 +314,16 @@ p {
 .client .client-desc h5 {
   font-weight: 400;
   max-width: 26vw;
+}
+
+#page4 .client-button {
+  height: 34px;
+  width: 20%;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  padding: 1.5vw;
+  margin-top: 1.3vh;
 }
