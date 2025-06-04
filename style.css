@@ -16,7 +16,6 @@ li {
 }
 nav {
   position: fixed;
-  display: inline-block;
   top: 0px;
   width: 100%;
   display: flex;
@@ -25,7 +24,7 @@ nav {
   text-align: center;
   padding: 1vw 12vw;
   /* line-height: 3vw; */
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   border-radius: 30px;
   background-color: transparent;
   z-index: 100000;
@@ -49,7 +48,7 @@ nav h1 {
   align-items: end;
   margin-right: -8vw;
   text-align: center;
-  width: 40%;
+  width: 50%;
 }
 .nav2 h2 {
   font-size: 1rem;
@@ -252,6 +251,8 @@ nav button:hover {
   height: 5.8vh;
   width: 12.3vw;
   margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 700;
 }
 .about-us .get-in-touch:hover {
   background-color: #30dd05;
@@ -294,10 +295,12 @@ nav button:hover {
   cursor: pointer;
 }
 .grid-box h3 {
+  color: #f19407;
   position: absolute;
   bottom: 24%;
   margin-bottom: 3vh;
   font-size: 1.4vw;
+  text-decoration: underline;
 }
 .grid-box p {
   position: absolute;
@@ -314,69 +317,85 @@ nav button:hover {
 #page4 {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to bottom, #311004, #021841, #340438);
+  /* background: linear-gradient(to bottom, #311004, #021841, #340438); */
   padding: 2.5vw;
   margin-bottom: 20px;
+  text-align: center;
 }
-#page4 .section1 {
-  height: 18vh;
-  width: 90%;
-  margin-bottom: 5vh;
-  text-align: left;
-  padding: 1.6vw;
-}
-#page4 .section1 h1 {
-  font-size: 4.1vw;
-  margin-bottom: 12px;
-}
-
-#page4 .section1 h3 {
-  font-weight: 400;
-}
-
-#page4 .section2 {
-  height: 60vh;
-}
-#page4 .section2 .client-box {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-}
-
-.client {
-  height: 20vh;
-  width: 1005;
-  padding: 1.3vw;
-}
-.client:hover {
-  cursor: pointer;
-  background-color: #042c42;
-  border-radius: 10px;
-}
-
-.client .client-logo {
+#page4 .first-row,
+#page4 .second-row,
+#page4 .third-row {
   display: flex;
-  align-items: center;
-  margin-bottom: 8px;
+  justify-content: center;
+  align-items: start;
 }
-.client .client-logo img {
-  margin-right: 8px;
+#page4 .first-row .services {
+  background-color: #2b2c2c;
+  height: 30vh;
+  max-width: 35vw;
+  text-align: left;
+  padding: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
 }
-.client .client-desc h5 {
-  font-weight: 400;
-  max-width: 26vw;
+#page4 .second-row .services {
+  background-color: #2b2c2c;
+  height: 30vh;
+  max-width: 23vw;
+  text-align: left;
+  padding: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+#page4 .third-row .services {
+  background-color: #2b2c2c;
+  height: 30vh;
+  max-width: 27vw;
+  text-align: left;
+  padding: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+#page4 .first-row .services:hover {
+  background-color: #41312d;
+  transform: scale(1.1);
+}
+#page4 .second-row .services:hover {
+  background-color: #41312d;
+  transform: scale(1.1);
+}
+#page4 .third-row .services:hover {
+  background-color: #41312d;
+  transform: scale(1.1);
 }
 
-#page4 .client-button {
-  height: 34px;
-  width: 20%;
-  background-color: blue;
-  color: #fff;
+.services h1 {
+  color: #f19407;
+  margin-bottom: 1.2vh;
+}
+.services p {
+  margin-bottom: 1.5vh;
+  line-height: 3vh;
+}
+.services button {
+  margin-top: 1.2vh;
+  height: 5.1vh;
+  width: 8.4vw;
+  background-color: #0f8804;
   border: none;
   outline: none;
-  border-radius: 5%;
-  padding: 1.5vw;
-  margin-top: 1.3vh;
+  border-radius: 10px;
+}
+.services button:hover {
+  background-color: #38ff06;
+  color: #111;
+  cursor: pointer;
 }
 
 #page5 {
