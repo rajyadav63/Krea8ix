@@ -244,7 +244,8 @@ nav button:hover {
   color: #39e70e;
 }
 .about-us .get-in-touch {
-  background-color: #25a504;
+  background-color: #38ff06;
+  color: #111;
   border: none;
   outline: none;
   border-radius: 20px;
@@ -253,7 +254,7 @@ nav button:hover {
   margin-bottom: 5px;
 }
 .about-us .get-in-touch:hover {
-  background-color: #31c70b;
+  background-color: #30dd05;
   cursor: pointer;
 }
 #page3 .grid {
