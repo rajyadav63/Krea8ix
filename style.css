@@ -416,9 +416,85 @@ nav button:hover {
   height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
   justify-content: center;
   align-items: center;
 }
+#pages6 .price-desc {
+  border: 2px solid red;
+  width: 100%;
+  padding: 20px;
+  height: 25vh;
+  display: flex;
+  text-align: left;
+}
+#pages6 .price-desc h1 {
+  font-size: 5vh;
+  font-weight: 400;
+}
+
+#page6 .prices {
+  display: flex;
+  height: 60vh;
+  width: 90%;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.medium-btn {
+  background-color: #28aa07;
+}
+
+#page6 .prices .pricing {
+  border: 1px solid #686262;
+  outline: none;
+  background-color: transparent;
+  margin-left: 4vw;
+  border-radius: 10px;
+  width: 24vw;
+  padding: 2vw 2.8vw;
+  margin-top: 4.5vh;
+  text-align: left;
+  line-height: 5vh;
+  transition: transform 1s ease;
+}
+.pricing h3 {
+  margin-top: -2vh;
+  margin-bottom: 3.5vh;
+}
+.pricing h1 {
+  margin-bottom: 2vh;
+}
+.pricing p {
+  font-size: 12px;
+  font-weight: 300;
+}
+.pricing p span {
+  margin-right: 1vh;
+}
+
+.pricing button {
+  margin-top: 2vh;
+  height: 5vh;
+  width: 13vw;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  /* background-color: #289407; */
+}
+.pricing button:hover {
+  cursor: pointer;
+  background-color: #1f7405;
+}
+
+#page6 .prices .pricing:hover {
+  transform: scale(1.05);
+  background-color: #272625;
+  cursor: pointer;
+}
+
 #page7 {
   height: 100vh;
   width: 100%;
