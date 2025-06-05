@@ -496,11 +496,19 @@ nav button:hover {
 }
 
 #page7 {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+#page7 .contact {
+  width: 40vw;
+  height: 40vh;
+}
+#page7 .message-form {
+  width: 40vw;
+  height: 40vh;
 }
 #page8 {
   height: 100vh;
