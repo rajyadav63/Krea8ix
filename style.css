@@ -8,6 +8,7 @@
   /* background: #252323; */
   color: #fff;
 }
+
 body {
   background: linear-gradient(to top, #1f1e1e, #021841, #2b072e);
 }
@@ -506,9 +507,63 @@ nav button:hover {
   align-items: center;
 }
 #page7 .contact {
-  width: 40vw;
-  height: 80vh;
+  outline: none;
+  border-radius: 10px;
+  width: 30vw;
+  height: 60vh;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  margin-right: -20vw;
+  /* border: 1px solid rebeccapurple; */
 }
+#page7 .contact h3 {
+  /* padding: -30px; */
+  margin-top: -3vh;
+  margin-bottom: 2vh;
+  color: #ec05b3;
+}
+#page7 .contact h1 {
+  margin-bottom: 2vh;
+  color: #bd750a;
+}
+#page7 .contact p {
+  margin-bottom: 2vh;
+  line-height: 3.5vh;
+  color: #f3f2f0;
+}
+#page7 .contact .social {
+  display: flex;
+  flex-direction: column;
+  width: 8vw;
+  margin-bottom: 3vh;
+}
+.social a {
+  width: 12vw;
+}
+.cv {
+  background-color: #1f7405;
+  border: none;
+  outline: none;
+  height: 7vh;
+  width: 20vw;
+}
+
+.social button {
+  background-color: #b16c05;
+  height: 5.5vh;
+  margin-bottom: 3vh;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: #e2e3eb;
+  font-weight: 700;
+}
+.social button:hover {
+  cursor: pointer;
+  background-color: #8b5c16;
+}
+
 #page7 .message-form {
   outline: none;
   border-radius: 10px;
@@ -569,4 +624,16 @@ nav button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#page9 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#page9 div a {
+  text-decoration: underline;
+  margin-right: 20px;
 }
