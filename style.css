@@ -101,6 +101,8 @@ nav button:hover {
   line-height: 2vh;
   margin-top: 33vh;
   margin-bottom: 50px;
+  font-size: 12.5vh;
+  font-weight: 500;
 }
 #page1 h5 {
   font-size: 1.8rem;
@@ -108,6 +110,7 @@ nav button:hover {
   line-height: 3vw;
   margin-top: 20px;
   margin-bottom: 40px;
+  font-weight: 400;
 }
 
 #page1 p {
@@ -496,7 +499,7 @@ nav button:hover {
 }
 
 #page7 {
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -504,11 +507,61 @@ nav button:hover {
 }
 #page7 .contact {
   width: 40vw;
-  height: 40vh;
+  height: 80vh;
 }
 #page7 .message-form {
-  width: 40vw;
-  height: 40vh;
+  outline: none;
+  border-radius: 10px;
+  width: 30vw;
+  height: 60vh;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+#page7 .message-form h1 {
+  color: #bd750a;
+  margin-bottom: 2.1vh;
+  text-align: left;
+}
+#page7 .message-form label {
+  margin-bottom: 1.5vh;
+}
+#page7 .message-form input {
+  height: 6.4vh;
+  width: 30.4vw;
+  margin-bottom: 3.1vh;
+  text-align: left;
+  display: block;
+  padding: 2px 12px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  /* margin: auto; */
+}
+#page7 .message-form textarea {
+  /* margin: auto; */
+  height: 12.4vh;
+  width: 30.4vw;
+  margin-bottom: 3.1vh;
+  text-align: left;
+  display: block;
+  padding: 2px 12px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+#page7 .message-form button {
+  height: 6.4vh;
+  width: 10.4vw;
+  margin: auto;
+  padding: 2px 12px;
+  background-color: #28aa07;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
 #page8 {
   height: 100vh;
