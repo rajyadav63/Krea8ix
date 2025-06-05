@@ -26,10 +26,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 0.7vw 5vw;
-  /* margin-bottom: 2vh; */
+  padding: 0.7vw 3vw;
   margin: auto;
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: #383737;
   z-index: 999;
 }
@@ -54,25 +53,27 @@ nav h1 {
   align-items: end;
   margin-right: 1vw;
   text-align: center;
-  width: 50%;
+  width: 45%;
 }
 .nav2 h2 {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 .nav2 a h2:hover {
   color: #ff4b09;
 }
 nav button {
+  width: 12vw;
   height: 45px;
   width: 8rem;
-  font-size: 1.3rem;
-  font-weight: 600;
-  border-radius: 20px;
-  border: 1px solid #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 2px solid #e0cfcf;
   outline: none;
   background: transparent;
   color: #fff;
+  padding: 1px 2px;
 }
 nav button:hover {
   cursor: pointer;
