@@ -32,8 +32,8 @@ Welcome to **Krea8ix** – a creative tech agency dedicated to building stunning
 ## 📬 Contact Us
 
 Need a project done or want to collaborate?  
-📧 Email: [krea8ix.vector@agency.com]  
-🌐 Website: [https://krea8ix.com] (Coming soon)
+📧 Email: [nexora.vector@agency.com]  
+🌐 Website: [https://nexoravector.agency] (Coming soon)
 
 ---
 
