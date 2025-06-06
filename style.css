@@ -120,6 +120,7 @@ nav button:hover {
   line-height: 23.2vh;
   margin-bottom: 34px;
 }
+
 #page1 span {
   color: #f3541a;
   border: 1px solid wheat;
@@ -163,6 +164,34 @@ nav button:hover {
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+/* media query for page1 */
+@media (max-width: 700px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  nav .nav2 {
+    display: none;
+  }
+  #page1 {
+    max-width: 100%;
+  }
+  #page1 h2 {
+    font-size: 3.5vh;
+    line-height: 1vh;
+    margin-top: 2vh;
+  }
+  #page1 h5 {
+    font-size: 14px;
+    max-width: 300px;
+    line-height: 2.5vh;
+    margin-top: 10px;
+  }
+  #page1 p {
+    font-size: 15px;
+    line-height: 5vh;
+    max-width: 300px;
   }
 }
 
