@@ -1,6 +1,6 @@
-# 🚀 Nexora – Digital Innovation Agency
+# 🚀 Krea8ix – Digital Innovation Agency
 
-Welcome to **Nexora** – a creative tech agency dedicated to building stunning websites, mobile apps, intuitive UI/UX, and compelling video content. We help businesses and creators bring their ideas to life with cutting-edge technology and design.
+Welcome to **Krea8ix** – a creative tech agency dedicated to building stunning websites, mobile apps, intuitive UI/UX, and compelling video content. We help businesses and creators bring their ideas to life with cutting-edge technology and design.
 
 ---
 
@@ -14,7 +14,7 @@ Welcome to **Nexora** – a creative tech agency dedicated to building stunning 
 
 ---
 
-## 🌟 Why Choose Nexora?
+## 🌟 Why Choose Krea8ix?
 
 - ✅ Full-service development team
 - 🎯 Design and performance focused
@@ -32,8 +32,8 @@ Welcome to **Nexora** – a creative tech agency dedicated to building stunning 
 ## 📬 Contact Us
 
 Need a project done or want to collaborate?  
-📧 Email: [nexora.vector@agency.com]  
-🌐 Website: [https://nexoravector.agency] (Coming soon)
+📧 Email: [krea8ix.vector@agency.com]  
+🌐 Website: [https://krea8ix.com] (Coming soon)
 
 ---
 
@@ -50,4 +50,4 @@ Need a project done or want to collaborate?
 
 ## 📄 License
 
-This repository and its content are © Nexora.Vector. All rights reserved.
+This repository and its content are © Krea8ix.Vector. All rights reserved.
